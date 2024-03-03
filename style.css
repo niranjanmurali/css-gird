@@ -1,0 +1,22 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3 ,200px);
+    grid-template-rows: 200px 200px;
+    grid-auto-rows: minmax(150px,auto);
+    justify-content: space-between;
+    justify-items: stretch;
+    grid-gap: 20px;
+    overflow: hidden;
+    align-content: center stretch;
+    align-items: stretch;
+    padding: 10%;
+}
+
+img {
+    width:90%;
+    height: 90%;
+    object-fit:contain; 
+    background-size: cover;
+    max-height:min-content;
+    border-radius: 30px;
+}
